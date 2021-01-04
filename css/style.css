@@ -1,0 +1,180 @@
+.sidenav {
+  width: 55px;
+  position: fixed;
+  z-index: 1;
+  top: 30%;
+  right: 5px;
+  background: rgba(255, 255, 255, 0.4);
+  overflow-x: hidden;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+.fabft{
+  color: black;
+  margin: 20px 10px;
+}
+
+.fabft1{
+  color: black;
+  width: 2%;
+  line-height: 1px;
+}
+
+.fabft1:hover{
+  color: grey;
+}
+
+.fabft:hover{
+  color: grey;
+}
+.fa-facebook-f{
+  padding-left: 4px;
+}
+.hintergrund {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.logo {
+  display: block;
+  padding-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+.navi {
+  margin: 5% auto 0;
+  width: 70%;
+  text-align: center;
+}
+a {
+  color: #fff;
+}
+a:hover {
+  color: #fff;
+  text-decoration: overline;
+}
+.a1 {
+  color: black;
+}
+.a1:hover {
+  color: black;
+  text-decoration: overline;
+}
+.dropdown-toggle::after {
+  content: none;
+}
+.text1 {
+  color: #fff;
+  margin: 20% auto 0;
+  font-size: 2rem;
+  width: 60%;
+}
+.btndiv {
+  margin: 3% auto;
+  text-align: center;
+}
+.buton {
+  background-color: rgba(0,0,0,0);
+}
+.seconddiv {
+  margin: 17% auto;
+  font-size: 3rem;
+  width: 80%;
+  text-align: center;
+}
+.fotosdiv {
+  margin: 7% auto;
+  text-align: center;
+}
+.fotos {
+  width: 100%;
+}
+#testimonials {
+  text-align: center;
+  background-color: #fff;
+  color: black;
+}
+
+.carousel-item{
+  padding: 0 13% 10%;
+}
+
+h2{
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+      /* inputs */
+h2{
+  text-align: center;
+  margin: 8% auto;
+}
+.inputs {
+  text-align: center;
+  margin:0 auto;
+}
+.form-control {
+  padding: 2px 150px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: black;
+}
+::-webkit-input-placeholder {
+   text-align: center;
+}
+select{
+    text-align-last:center;
+    direction: inherit;
+}
+.nachricht {
+  margin-top: 2%;
+}
+
+@media (max-width:991px){
+  .sidenav {
+  display: none;
+  }
+
+  .sidenav1 {
+    text-align: center;
+    top: auto;
+    bottom: 0;
+    width: 104%;
+    height: 55px;
+    position: fixed;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.8);
+    overflow-x: hidden;
+  }
+
+  .fabft1{
+    width: 100%;
+  }
+
+  .sidenav a:hover {
+    color: #064579;
+  }
+  .col-3 {
+    padding-top: 15px;
+  }
+
+}
+
+@media (min-width:992px) {
+
+.col-3{
+  display: none;
+}
+}
